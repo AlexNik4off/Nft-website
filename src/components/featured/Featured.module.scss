@@ -1,0 +1,38 @@
+.featured__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 210px;
+    margin-left: 80px;
+}
+
+.featured__title h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.featured__menu {
+    position: relative;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background: #23263C;
+    border: 1px solid #5BD2BD;
+}
+
+.featured__menu ul {
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+    gap: 130px;
+    background: none;
+}
+
+.featured__menu ul > li {
+    font-weight: 700;
+    font-size: 27px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    background: none;
+}

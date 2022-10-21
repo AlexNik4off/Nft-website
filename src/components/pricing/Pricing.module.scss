@@ -1,0 +1,75 @@
+.pricing__container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 120px;
+}
+
+.pricing__img {
+    margin-top: 256px;
+    margin-right: 55px;
+    width: 348px;
+    height: 400px;
+}
+
+.nft {
+    color: #56CAB1;
+}
+
+.pricing__content {
+    width: 540px;
+}
+
+.pricing__content h2 {
+    margin-top: 197px;
+    margin-bottom: -5%;
+    font-weight: 700;
+    font-size: 55px;
+    line-height:70px;
+    color: #ffffff;
+}
+
+.current__price {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 50px;
+    margin-bottom: 3%;
+}
+
+.discount {
+    text-decoration: line-through #56CAB1;;
+}
+
+.bonus {
+    font-weight: 700;
+    font-size: 26px;
+    color: #4C99BB;
+    width: 521px;
+    margin-bottom: -5%;
+}
+
+.buy__button {
+    width: 126px;
+    height: 68px;
+    border: 1px solid #56CAB1;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.pricing__stats {
+    width: 521px;
+    height: 132px;
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.pricing__stats th, td {
+    background: #3A5B6A;
+}

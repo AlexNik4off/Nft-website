@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.header {
+    width: 420px;
+    height: 150px;
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #5BD2BF;
+}
+
+.header h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 4px;
+}
+
+.client {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-top: 200px;
+    gap: 14px;
+}
+
+.client__profile {
+    position: relative;
+    width: 345px;
+    background: #24293F;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.client__profile h3 {
+    margin-top: 25%;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    background: none;
+}
+
+.client__profile p {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background: none;
+}
+
+.client1 {
+    position: absolute;
+    right: 30%;
+    bottom: 75%;
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+}
+
+.client2 {
+    position: absolute;
+    right: 30%;
+    bottom: 75%;
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+}
+
+.client3 {
+    position: absolute;
+    right: 30%;
+    bottom: 75%;
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+}
+
+.ellipse {
+    position: absolute;
+    background: none;
+    left: 60%;
+    bottom: 106%;
+}
+
+.vector {
+    position: absolute;
+    background: none;
+    left: 60%;
+    bottom: 106%;
+}

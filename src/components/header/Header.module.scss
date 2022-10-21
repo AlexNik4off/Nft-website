@@ -1,0 +1,37 @@
+.header__container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ellipse {
+    position: absolute;
+    width: 590px; 
+    height: 594px;
+    left: calc(50% - 590px/2 - 528px);
+    top: -245px;
+    background: rgba(84, 197, 173, 0.95);
+    filter: blur(217px);
+}
+
+.header__logo {
+    display: flex;
+    margin-left: 192px;
+    font-weight: 700;
+    font-size: 27px;
+    color: #ffffff;
+}
+
+.header__menu ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    margin-right: 180px;
+}
+
+.header__menu ul > li {
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}

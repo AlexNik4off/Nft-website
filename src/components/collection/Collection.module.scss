@@ -1,0 +1,51 @@
+.collection__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__content {
+    width: 465px;
+    height: 212px;
+    margin-top: 20%;
+}
+
+.main__content h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.polygon {
+    position: absolute;
+    width: 720px;
+    height: 810px;
+    background: #5BD2BF;
+    filter: blur(260px);
+    transform: rotate(-6.43deg);
+}
+
+.imgTwo {
+    position: relative;
+    margin-top: 15%;
+    right: 10%;
+    background: transparent;
+}
+
+.imgOne {
+    position: absolute;
+    left: 67%;
+    margin-top: 12%;
+}
+
+.main__button {
+    width: 450px;
+    height: 96px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #56CAB1;
+}
