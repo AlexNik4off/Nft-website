@@ -5,7 +5,6 @@ import Pricing from "../pricing/Pricing";
 import Collection from "../collection/Collection";
 import Testmonial from "../testmonial/Testmonial";
 import BuyNow from "../buyNow/BuyNow";
-import Footer from "../footer/Footer";
 
 function Main() {
     return (
@@ -25,7 +24,6 @@ function Main() {
         <Collection />
         <Testmonial />
         <BuyNow />
-        <Footer />
       </div>     
       </>
     );
