@@ -1,8 +1,9 @@
 .pricing__container {
+    max-width: 1020px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 120px;
 }
 
 .pricing__img {
@@ -60,16 +61,31 @@
 }
 
 .pricing__stats {
-    width: 470px;
+    width: 440px;
     height: 132px;
     margin-top: 40px;
     border-collapse: collapse;
     text-align: center;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 24px;
     color: #ffffff;
 }
 
 .pricing__stats th, td {
     background: #3A5B6A;
+}
+
+@media (max-width: 970px) {
+
+    .pricing__img {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+    }
+}
+@media (max-width: 700px) {
+    .pricing__stats {
+        width: 300px;
+        font-size: 16px;
+    }
 }

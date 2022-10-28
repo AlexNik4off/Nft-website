@@ -15,6 +15,11 @@ function Featured() {
             <li>Ista</li>
         </ul>
     </div>
+    <div className={styles.featured__hamburger}>
+        <span className={styles.featured__hamburger__bar}></span>
+        <span className={styles.featured__hamburger__bar}></span>
+        <span className={styles.featured__hamburger__bar}></span>
+    </div>
     </div>
     )
 }

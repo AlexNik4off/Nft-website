@@ -1,10 +1,9 @@
 .featured__container {
+    max-width: 1080px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 210px;
-    margin-left: 80px;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin: 200px auto;
 }
 
 .featured__title h2 {
@@ -14,7 +13,6 @@
 }
 
 .featured__menu {
-    position: relative;
     padding-top: 26px;
     padding-bottom: 26px;
     background: #23263C;
@@ -35,4 +33,23 @@
     color: #FFFFFF;
     opacity: 0.5;
     background: none;
+}
+
+@media (max-width: 970px) {
+
+    .featured__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .featured__title h2 {
+        font-size: 70px;
+    }
+    .featured__menu {
+        background: none;
+    }
+    .featured__menu ul {
+        gap: 60px;
+    }
 }

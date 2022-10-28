@@ -1,4 +1,6 @@
 .container {
+    max-width: 1063px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -35,4 +37,10 @@
     line-height: 60px;
     text-align: center;
     color: #FFFFFF;
+}
+
+@media (max-width: 1065px) {
+    .main__content {
+        width: 800px;
+    }
 }
