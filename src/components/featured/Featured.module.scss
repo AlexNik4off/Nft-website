@@ -53,3 +53,12 @@
         gap: 60px;
     }
 }
+
+@media(max-width: 700px) {
+    .featured__title h2 {
+        font-size: 50px;
+    }
+    .featured__menu ul {
+        gap: 40px;
+    }
+}

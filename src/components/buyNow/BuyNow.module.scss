@@ -44,3 +44,21 @@
         width: 800px;
     }
 }
+
+@media(max-width: 800px) {
+    .container {
+        margin-top: -35%;
+    }
+    .main__content {
+        width: 400px;
+        height: 240px;
+    }
+    .button {
+        width: 200px;
+        font-size: 24px;
+    }
+
+    .main__content h2 {
+        font-size: 32px;
+    }
+}
