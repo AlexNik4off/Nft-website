@@ -1,4 +1,4 @@
-.container {
+.footer__container {
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -7,7 +7,7 @@
     gap: 40px;
 }
 
-.logo {
+.footer__logo {
     font-weight: 700;
     font-size: 25px;
     line-height: 32px;
@@ -20,27 +20,27 @@ td, th {
     text-align: left;
 }
 
-.table th {
+.footer__table th {
     font-weight: 700;
     font-size: 25px;
     line-height: 32px;
     color: #FFFFFF;
 }
 
-.table td {
+.footer__table td {
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
     background: none;
 }
 
-.join {
+.footer__join {
     font-weight: 700;
     font-size: 25px;
     color: #FFFFFF;
 }
 
-.button {
+.footer__button {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +67,7 @@ td, th {
 }
 
 @media(max-width: 890px) {
-    .container {
+    .footer__container {
         flex-direction: column;
         justify-content: center;
         align-items: center;

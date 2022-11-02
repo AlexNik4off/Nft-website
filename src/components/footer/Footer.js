@@ -2,9 +2,9 @@ import styles from "./Footer.module.scss"
 
 function Footer () {
     return (
-        <div className={styles.container}>
-                <p className={styles.logo}>Crypto</p>
-                <table className={styles.table}>
+        <div className={styles.footer__container}>
+                <p className={styles.footer__logo}>Crypto</p>
+                <table className={styles.footer__table}>
                     <tr>
                         <th>Nfts</th>
                         <th>Market</th>
@@ -36,8 +36,8 @@ function Footer () {
                     </tr>
                 </table>
                 <div>
-                        <p className={styles.join}>Join Our Newslatter</p>
-                        <button className={styles.button}>Your Email<button className={styles.inner__button}>Submit</button></button>
+                        <p className={styles.footer__join}>Join Our Newslatter</p>
+                        <button className={styles.footer__button}>Your Email<button className={styles.inner__button}>Submit</button></button>
                 </div>
         </div>
     )

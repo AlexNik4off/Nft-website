@@ -7,8 +7,8 @@ import vector from "../../img/Vector.png"
 
 function Testmonial () {
     return (
-        <div className={styles.container}>
-            <div className={styles.header}>
+        <div className={styles.testmonial__container}>
+            <div className={styles.testmonial__header}>
                 <h1>TESTMONIAL</h1>
                 <h2>Read What Our Client Say</h2>
             </div>

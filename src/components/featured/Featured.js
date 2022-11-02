@@ -8,17 +8,12 @@ function Featured() {
     </div>
     <div className={styles.featured__menu}>
         <ul>
-            <li>Binance</li>
-            <li>Latoken</li>
-            <li>Btc</li>
-            <li>Getio</li>
-            <li>Ista</li>
+            <li><a href="/#">Binance</a></li>
+            <li><a href="/#">Latoken</a></li>
+            <li><a href="/#">Btc</a></li>
+            <li><a href="/#">Getio</a></li>
+            <li><a href="/#">Ista</a></li>
         </ul>
-    </div>
-    <div className={styles.featured__hamburger}>
-        <span className={styles.featured__hamburger__bar}></span>
-        <span className={styles.featured__hamburger__bar}></span>
-        <span className={styles.featured__hamburger__bar}></span>
     </div>
     </div>
     )

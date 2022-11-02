@@ -11,10 +11,10 @@ function Header() {
         </div>
         <div className={activeMenu ? styles.header__menu__active : styles.header__menu}>
             <ul>
-            <li>Coins</li>
-            <li>Featured</li>
-            <li>Contact</li>
-            <li>About</li>
+            <li><a href="/#">Coins</a></li>
+            <li><a href="/#">Featured</a></li>
+            <li><a href="/#">Contact</a></li>
+            <li><a href="/#">About</a></li>
             </ul>
         </div>
         <div className={styles.header__hamburger} onClick={() => setActiveMenu(!activeMenu)}>

@@ -35,6 +35,19 @@
     background: none;
 }
 
+a:link {
+    text-decoration: none;
+    background: transparent;
+}
+
+a:active {
+    color: #3B7C70;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
 @media (max-width: 970px) {
 
     .featured__container {
@@ -60,5 +73,13 @@
     }
     .featured__menu ul {
         gap: 40px;
+    }
+}
+@media (max-width: 620px) {
+    .featured__menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
     }
 }

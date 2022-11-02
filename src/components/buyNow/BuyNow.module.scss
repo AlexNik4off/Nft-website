@@ -1,4 +1,4 @@
-.container {
+.buyNow__container {
     max-width: 1063px;
     margin: 0 auto;
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.main__content {
+.buyNow__content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@
     border-radius: 20px;
 }
 
-.main__content h2 {
+.buyNow__content h2 {
     width: 310px;
     text-align: center;
     background: none;
@@ -27,7 +27,7 @@
     color: #FFFFFF;
 }
 
-.button {
+.buyNow__button {
     width: 344px;
     height: 85px;
     background: #000000;
@@ -40,25 +40,25 @@
 }
 
 @media (max-width: 1065px) {
-    .main__content {
+    .buyNow__content {
         width: 800px;
     }
 }
 
 @media(max-width: 800px) {
-    .container {
+    .buyNow__container {
         margin-top: -35%;
     }
-    .main__content {
+    .buyNow__content {
         width: 400px;
         height: 240px;
     }
-    .button {
+    .buyNow__button {
         width: 200px;
         font-size: 24px;
     }
 
-    .main__content h2 {
+    .buyNow__content h2 {
         font-size: 32px;
     }
 }
