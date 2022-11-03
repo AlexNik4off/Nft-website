@@ -9,8 +9,11 @@ function Collection() {
                 <h2>Carry Out The Mission Find Yours Now!!</h2>
                 <button className={styles.collection__button}>View Our Nfts</button>
             </div>
+            {/* такого класса нет */}
             <div className={styles.collection__imgs}>
+                {/* не понял, зачем этот полигон? */}
                 <span className={styles.polygon}></span>
+                {/* придираюсь, но почему первая картинка two, а вторая one) */}
                 <img src={collectionImgTwo} alt="img" className={styles.imgTwo}></img>
                 <img src={collectionImgOne} alt="img" className={styles.imgOne}></img>
             </div>

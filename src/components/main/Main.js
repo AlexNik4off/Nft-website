@@ -8,8 +8,11 @@ import BuyNow from "../buyNow/BuyNow";
 
 function Main() {
     return (
+        // здесь зачем фрагмент?
         <>
       <div className={styles.main__container}>
+        {/* Раз ты выделяешь компоненты, этот тоже можно было бы вынести отдельно,
+        назвать его как-нибудь типа Hero */}
         <div className={styles.main__content}>
             <h1>Descover And Finde Rare Nfts Picturs Or Games</h1>
             <button className={styles.button__sell}>SELL NFTS</button>
@@ -24,7 +27,7 @@ function Main() {
         <Collection />
         <Testmonial />
         <BuyNow />
-      </div>     
+      </div>
       </>
     );
   }

@@ -11,26 +11,27 @@ function Footer () {
                         <th>Contact</th>
                     </tr>
                     <tr>
+                        {/* это тоже по идее ссылки */}
                         <td>Home</td>
-                        <td>Browse Nfts</td>                                           
-                        <td>Email</td>                                      
-                                                                    
-                                             
+                        <td>Browse Nfts</td>
+                        <td>Email</td>
+                        
+                        
                     </tr>
                     <tr>
-                        <td>About</td> 
+                        <td>About</td>
                         <td>Buy Nfts</td>
                         <td>LenkedIn</td>
                         
                     </tr>
                     <tr>
-                        <td>Sell Nfts</td> 
+                        <td>Sell Nfts</td>
                         <td>Sell Nfts</td>
                         <td>Instagram</td>
                         
                     </tr>
                     <tr>
-                        <td>Buy Nfts</td> 
+                        <td>Buy Nfts</td>
                         <td></td>
                         <td>Twitter</td>
                     </tr>

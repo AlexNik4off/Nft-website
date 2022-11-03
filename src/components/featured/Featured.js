@@ -2,6 +2,7 @@ import styles from "./Featured.module.scss"
 
 function Featured() {
     return (
+        // Поставь себе prettier, чтобы нормально форматировался код
         <div className={styles.featured__container}>
         <div className={styles.featured__title}>
         <h2>FEATURED ON</h2>
