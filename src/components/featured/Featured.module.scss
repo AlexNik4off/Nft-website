@@ -2,7 +2,9 @@
     max-width: 1080px;
     display: flex;
     flex-wrap: wrap;
+    // у этого свойства нет значения baseline, только у align-items
     justify-content: baseline;
+    // я бы лучше паддинг использовал для увеличения пространства вверху внизу
     margin: 200px auto;
 }
 
@@ -27,6 +29,7 @@
     background: none;
 }
 
+// ну и если делаешь по БЭМ, то этих каскадов лучше избегать
 .featured__menu ul > li {
     font-weight: 700;
     font-size: 27px;
@@ -35,6 +38,9 @@
     background: none;
 }
 
+// так, а вот эти глобальные стили тебе зачем тут
+// у тебя в модуле Header такие есть ужу
+// лучше их вобще в index.css определить, раз они глобальные
 a:link {
     color: #FFFFFF;
     text-decoration: none;

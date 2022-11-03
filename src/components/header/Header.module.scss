@@ -21,7 +21,7 @@ a:visited {
 
 .ellipse {
     position: absolute;
-    width: 590px; 
+    width: 590px;
     height: 594px;
     left: calc(50% - 590px/2 - 528px);
     top: -245px;
@@ -58,6 +58,7 @@ a:visited {
     width: 25px;
     height: 3px;
     margin: 5px auto;
+    // раз пишешь на реакте с использованием веб-пака, автопрефиксер там из коробки есть, кажется, можно не писать
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background: #3B7C70;
@@ -92,6 +93,8 @@ a:visited {
     .header__hamburger {
         display: block;
     }
+    // мне кажется, что на таких ширинах можно просто скрывать менюшку через display:none
+    // тогда не будет проблем с ее вылезанием за пределы
     .header__menu {
         position: fixed;
         left: -150%;

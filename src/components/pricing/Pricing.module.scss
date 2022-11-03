@@ -22,6 +22,7 @@
 }
 
 .pricing__content h2 {
+    // если ты хочешь разделить блоки этим маржином, то лучше указывать у контейнера, а не заголовка где-то внутри
     margin-top: 197px;
     margin-bottom: -5%;
     font-weight: 700;
@@ -47,6 +48,7 @@
     font-size: 26px;
     color: #4C99BB;
     width: 521px;
+    // эти маржины странные, что они тебе дают?
     margin-bottom: -5%;
 }
 
@@ -100,7 +102,7 @@
     .pricing__content {
         display: flex;
         flex-direction: column;
-        align-items: center;        
+        align-items: center;
     }
     .pricing__content h2 {
         font-size: 24px;

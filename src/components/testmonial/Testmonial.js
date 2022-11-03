@@ -5,6 +5,7 @@ import client3Img from "../../img/client3.png"
 import ellipse from "../../img/Ellipse.png"
 import vector from "../../img/Vector.png"
 
+// нравеное, все-таки Testimonial)
 function Testmonial () {
     return (
         <div className={styles.testmonial__container}>

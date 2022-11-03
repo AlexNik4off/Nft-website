@@ -5,6 +5,7 @@ import Main from "./components/main/Main";
 
 function App() {
   return (
+    // тебе нужен этот оборачивающий див? Он на что-то влияет? Если нет, лучше фрагмент здесь использовать
     <div>
     <Header />
     <Main />
